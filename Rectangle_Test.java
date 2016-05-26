@@ -5,12 +5,6 @@ import org.junit.Test;
 public class Rectangle_Test {
 
 	@Test
-	public void testGetSide() {
-		Point p1 = new Point (0, 0);
-		Point p2 = new Point (3, 0);
-		assertNotEquals("Points overlap", p1, p2);
-	}
-	
 	public void testGetArea() {
 		Point p1 = new Point (0, 0);
 		Point p2 = new Point (3, 0);
